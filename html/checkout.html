@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/77b7313188.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+</head>
+<body>
+    <div class="nav-container">
+        <a href="../index.html"><i class="fa-solid fa-book-atlas"></i></a>
+        <h1>Sam's online library</h1>
+        <div class="menu-container">
+            <a href="#">Account</a>
+        <a href="#">Cart</a>
+        <a href="#">Login</a>
+        <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+   
+    <div class="checkout-container">
+        <div class="form-container">
+            <div class="names-number-form">
+                <div class="first-name">
+                    <h4>First Name</h4>
+                    <input type="text">
+                </div>
+                <div class="Last-Name">
+                    <h4>Last Name</h4>
+                    <input type="text">
+                </div>
+                <div class="first-name">
+                    <h4>Contact Number</h4>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="address">
+                <h4>Billing addres</h4>
+                <input type="text" name="address" id="address">
+            </div>
+            <div class="billing-container">
+                <div class="country">
+                    <h4>Country : </h4>
+                    <select name="Country" id="country">
+                    <option value="">United Arab Emirates</option>
+                        <option value="">Kuwait</option>
+                        <option value="">Vietnam</option>
+                        <option value="">Tajikistan</option>
+                        <option value="">Israel</option>
+                        <option value="">Turkey</option>
+                        <option value="">Iran</option>
+                        <option value="">Bhutan</option>
+                        <option value="">Philippines</option>
+                </select>
+                </div>
+                <div class="prov">
+                    <h4>Province :</h4>
+                <select name="Country" id="Prov">
+                        <option value="">Batangas</option>
+                        <option value="">Cavite</option>
+                        <option value="">Laguna</option>
+                        <option value="">Quezon</option>
+                        <option value="">Rizal</option>
+                        <option value="">Marinduque</option>
+                        <option value="">Occidental Mindoro</option>
+                        <option value="">Oriental Mindoro</option>
+                        
+                </select>
+                </div>
+               <div class="city">
+                <h4>City :</h4>
+                <select name="Country" id="city">
+                    <option value="">Cavite City</option>
+                        <option value="">Kawit</option>
+                        <option value="">Noveleta</option>
+                        <option value="">Rosario</option>
+                        <option value="">City of Bacoor</option>
+                        <option value="">City of Imus</option>
+                        <option value="">City of Dasmariñas</option>
+                        <option value="">Carmona</option>
+                        <option value="">Silang</option>
+                        
+                </select>
+               </div>
+               <div class="zip">
+                <h4> Zip Code</h4>
+                <input type="text" name="address" id="address">
+               </div>
+            </div>
+            <div class="card-container">
+                <input type="radio" name="P_method">
+                <i class="fa-brands fa-cc-paypal"></i>
+                <input type="radio" name="P_method">
+                <i class="fa-brands fa-cc-amex"></i>
+                <input type="radio" name="P_method">
+                <i class="fa-brands fa-google-pay"></i>
+                <input type="radio" name="P_method">
+                <i class="fa-brands fa-cc-visa"></i>
+            </div>
+            <a class="btn-proceed" href="">Procced To Payment</a>
+        </div>
+        <div class="cart-container">
+            <table>
+                
+                    <tr>
+                        <td>Item Subtotal :</td>
+                        <td>$9.56</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Shipping Cost : </td>
+                        <td>$1.5</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$11.06</td>
+                        
+                    </tr>
+                
+            </table>
+        </div>
+    </div>
+    
+   
+</body>

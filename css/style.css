@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+body{
+    margin: 0%;
+    font-family: 'Poppins',sans-serif;
+}
+.nav-container{
+    width: 100%;
+    height: 10vh;
+    background-color: #9E7676;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-container a{
+    /* display: flex;
+    flex-direction: row; */
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    font-size: 1.5em;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container i{
+    font-size: 60px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.menu-container{
+    display: flex;
+    align-items: center;
+}
+.menu-container i{
+    display: none;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.search-container select{
+    width: 70px;
+    border-radius: 10px 0 0 10px;
+}
+.search-container input{
+    width: 190px;
+}
+.search-container i{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color: #9E7676;
+    width: 50px;
+    border-radius: 0px 10px 10px 0px;
+
+}
+.book-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8%;
+    flex-wrap: wrap;
+}
+.book-container .card{
+    background-color: #FFF8EA;
+    width: 250px;
+    height: auto;
+    border-radius: 23px;
+    margin-bottom: 20px;
+    margin: left 5px; ;
+    /* margin: 20px 20px;
+    border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.book-cover{
+    width: 100%;
+    height: 410px;
+    border-radius: 20px 20px 0 0 ;
+}
+.book-info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+
+}
+.book-content a {
+    display: none;
+}
+.book-info p{
+    /* padding: 10px; */
+    text-align: center;
+
+}
+.buttons{
+    display: flex;
+    width: 100.5%;
+    height: 60px;
+}
+.btn-cart{
+    background-color: #FFF8EA;
+    color: #815B5B;
+    font-size: smaller;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0px 0px 0 20px ;
+}
+.btn-wishlist{
+    background-color: #FFF8EA;
+    color: #815B5B;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+    
+    
+}
+.btn-Buy{
+    background-color: #815B5B;;
+    color: #FFF8EA;
+    flex: 3;
+    display: flex;
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 0px ;
+}
+.btn-Buy i{
+    display: none;
+}
+.buttons a{
+    text-decoration: none;
+}
+.buttons i{
+    font-size: large;
+    margin-bottom: 3px;
+}
+.footer{
+    background-color: #815B5B;
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+}
+.checkout-container{
+    margin: 30px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.form-container{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #9E7676;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.names-number-form{
+    display: flex;
+    flex-direction: row;
+}
+.names-number-form div{
+    width: 33.33%;
+}
+.names-number-form input{
+    width: 70%;
+    border-radius: 5px;
+    height: 25px;
+}
+.address input{
+    width: 50%;
+    border-radius: 5px;
+}
+.billing-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.billing-container div{
+    width: 33.32%;
+    
+}
+.billing-container select, #address{
+    width: 70%;
+    border-radius: 5px;
+    height: 25px;
+}
+.card-container{
+    margin-top: 20px;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+.btn-proceed{
+    text-decoration: none;
+    display: flex;
+    color:#FFF8EA ;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    /* width: 200px; */
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.cart-container{
+    width: 30%;
+    height: 200px;
+    background-color: #9E7676;
+    border-radius: 10px;
+}
+table{
+    width: 100%;
+}
+.cart-container tr{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+td{
+    float: right;
+}
+.login-container{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #815B5B;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+}
+@media (max-width: 540px) {
+
+    .menu-container a{
+        display: none;
+    }
+    .book-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    .book-container .card{
+        flex-direction: row;
+        height: 250px;
+        width: 90%;
+    }
+    .book-cover{
+        height: auto;
+        width: 150px;
+        border-radius: 20px 0 0 20px;
+    }
+    .book-info{
+        background-color: beige;
+        border-radius: 0px  20px 20px 0px;
+        flex: 1;
+    }
+    .book-info span {
+        display: none;
+    }
+    .book-content a {
+        display:block;
+    }
+    .btn-cart{
+        border-radius: 0px;
+    }
+    .btn-Buy i{
+        display: block;
+    }
+    .btn-cart span{
+        display: none;
+    }
+    .btn-wishlist span{
+        display: none;
+    }
+    /* .container-hero{
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+    } */
+    .checkout-container{
+        /* width: ; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-container{
+        width: 80%;
+        order: 2;
+        margin-top: 20px;
+    }
+    .names-number-form{
+        flex-direction: column;
+    }
+    .names-number-form div{
+        width: 100%;
+    }
+    .names-number-form input{
+        width: 70%;
+    }
+    .billing-container{
+        flex-direction: column;
+    }
+    .billing-container div{
+        width: 100%;
+    }
+    .billing-container select{
+        width: 70%;
+    }
+    .cart-container{
+        display: flex;
+        order: 1;
+        width: 80%;
+    }
+}
+@media (max-width: 650px ) {
+    .nav-container  h1{
+        font-size: 1.5em;
+    }
+    .menu-container i{
+        display: block;
+        font-size: 45px;
+    }
+    .menu-container a{
+        display: none;
+    }
+}
